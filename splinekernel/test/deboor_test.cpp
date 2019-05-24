@@ -9,6 +9,8 @@ namespace cie
 namespace splinekernel
 {
 
+/*
+
 TEST_CASE("FindKnotSpan_test")
 {
     std::vector<double> knotVector{ 0.0, 0.0, 0.0, 0.0, 1.0, 4.0, 9.0, 9.0, 9.0, 9.0 };
@@ -147,6 +149,8 @@ TEST_CASE( "DeBoorCurveScript_test" )
     CHECK( C[1][8] == Approx( 3.53059 ) );
     CHECK( C[1][9] == Approx( 1.0 ) );
 }
+
+*/
 
 } //namespace splinekernel
 } // namespace cie

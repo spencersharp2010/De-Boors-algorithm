@@ -37,14 +37,6 @@ std::array<double, 2> deBoor( double t,
                               const std::vector<double>& yCoordinates,
                               size_t recursionLevel = 1 );
 
-//! Same as above but without recursion.
-std::array<double, 2> deBoorOptimized( double t,
-                                       size_t i,
-                                       size_t p,
-                                       const std::vector<double>& knotVector,
-                                       const std::vector<double>& xCoordinates,
-                                       const std::vector<double>& yCoordinates );
-
 //! Determines the knot span of the parametric coordinate t.
 size_t findKnotSpan( double t,
                      size_t numberOfControlPoints,
