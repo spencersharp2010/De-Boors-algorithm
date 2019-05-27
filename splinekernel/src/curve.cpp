@@ -50,7 +50,7 @@ std::array<double, 2> deBoor( double t,
                               const std::vector<double>& knotVector,
                               const std::vector<double>& xCoordinates,
                               const std::vector<double>& yCoordinates,
-                              size_t r )
+                              size_t recursionLevel )
 {
     return { 0.0, 0.0 };
 }
