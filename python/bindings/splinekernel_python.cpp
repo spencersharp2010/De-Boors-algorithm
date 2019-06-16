@@ -11,4 +11,6 @@ PYBIND11_MODULE( pysplinekernel, m )
 
     m.def( "evaluateBSplineBasis", &cie::splinekernel::evaluateBSplineBasis, "Evaluates single b-spline basis function." );
     m.def( "evaluate2DCurve", &cie::splinekernel::evaluate2DCurve, "Evaluates B-Spline curve by multiplying control points and basis functions." );
+    m.def( "evaluate2DCurveDeBoor", &cie::splinekernel::evaluate2DCurveDeBoor, "Evaluates B-Spline curve by multiplying control points and basis functions." );
+
 }
